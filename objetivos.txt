@@ -1,0 +1,37 @@
+#---FEITO:
+#ambiente (tamanho, depot, roadblocks, bins existentes, bins atribuidos)
+#truck (carga, combustivel, destino, movimento)
+#bin (level, respawn)
+#main (inica tudo, atualiza gui)
+#ETC:
+#impossivel 2 trucks focar mesmo bin
+#faz o percurso para o centro sem teletransportar
+#impossivel por roadblock em cima de bin/depot
+#impossivel por bin em cima de roadblock/depot/bin
+#numero de roadblocks aleatorio (entre 1 e 5) em vez de sempre 3 ao mesmo tempo
+
+
+
+
+#---IMPORTANTE (objetivos em falta):
+#bins devem ser agentes que periodicamente dizem a sua % de lixo, acionando pedido de recolha quando atingem um certo %!
+#TALVEZ ADICIONAR: bins fixos (10) para cada vez q se corre o programa?? so muda o level (enche uma qantidade random entre 1-10 a cada 1     segundo)???
+#TALVEZ ADICIONAR: bins nao dar respawn logo??
+#falha aleatoria de agentes!
+#collection time para cada bin (1 distancia corresponde a 1 tempo ~30km/h)!
+#distancia percorrida para cada truck (1 bloco da grelha corresponde a 1 distancia ~1km)!
+
+
+
+
+#---ADICIONAR:
+#melhor gui (com fotos de lixo, camioes,...)
+#tamanho variavel, depot variavel??
+
+
+
+
+#---OTIMIZAR!!!:
+#adicionar threshold de carga (o camiao vai p o depot quando tem load a mais, mas talvez pode carregar mais se passar por PERTO de um bin no caminho, trabalhar com radius??)
+#se o camiao tiver perto do depot, aproveita e vai la (definir radius tipo 2)
+#definir um percurso de bins para cada truck, e nao so um bin
